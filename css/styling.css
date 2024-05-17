@@ -258,16 +258,25 @@ margin-bottom: 8%;
 
 .contacts-cont .form input{
 
-    width:60% ;
+    width:70% ;
     height: 50px;
     margin-bottom: 10%;
     font-size: 2em;
     background: #f3f3f3;
     border-bottom: 2px solid #3a3939;
     outline: none;
-    
-}
 
+<!---Message area update-->    
+}
+.contact-cont . form textarea{
+    outline: none;
+    background: #f3f3f3;
+    width:70% ;
+    height: 50px;
+    margin-bottom: 10%;
+    font-size: 2em;
+    border-bottom: 2px solid #3a3939;
+}
 .contacts-cont .form input:focus {
 
     border-bottom: 2px solid #333; 
