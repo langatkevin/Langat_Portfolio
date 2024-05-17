@@ -268,7 +268,7 @@ margin-bottom: 8%;
 
 /*Message area update*/    
 }
-.contact-cont . form textarea{
+textarea{
     outline: none;
     background: #f3f3f3;
     width:70% ;
@@ -281,7 +281,8 @@ margin-bottom: 8%;
 
     border-bottom: 2px solid #333; 
 }
-.contacts-cont .form textarea:focus {
+
+textarea:focus {
 
     border-bottom: 2px solid #333; 
 }
