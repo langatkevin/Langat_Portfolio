@@ -266,7 +266,7 @@ margin-bottom: 8%;
     border-bottom: 2px solid #3a3939;
     outline: none;
 
-<!---Message area update-->    
+/*Message area update*/    
 }
 .contact-cont . form textarea{
     outline: none;
@@ -280,8 +280,12 @@ margin-bottom: 8%;
 .contacts-cont .form input:focus {
 
     border-bottom: 2px solid #333; 
-    
 }
+.contacts-cont .form textarea:focus {
+
+    border-bottom: 2px solid #333; 
+}
+    
 
 .contacts-cont .form form button{
 
