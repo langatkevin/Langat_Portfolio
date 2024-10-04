@@ -14,16 +14,23 @@ body {
   background: #f3f3f3;
   margin: auto;
 
-  &>div,
-  &>header{
+  &>div
+{
       width: 85%;
+
       margin-inline: auto;;
   }
+
+  &>header{
+    width: 100%;
+    margin: 0;
+  }
+
 }
 
 
 header {
-  height: 120px;
+  height: 70px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -442,6 +449,12 @@ textarea:focus {
   width: 150px;
   border-radius: 50%;
   object-fit: cover;
+
+}
+
+.img-div{
+  margin-top: 7%;
+
 }
 
 .expirience-div {
@@ -797,4 +810,38 @@ textarea:focus {
   .mobile-nav {
     display: none;
   }
+}
+
+
+
+/* General styling for the navigation bar */
+.desktop-nav {
+  background-color: #161622; /* Black background color */
+  display: flex;
+  justify-content: end;
+  padding: 10px;
+  width: 100%;
+  margin: 0;
+}
+
+.desktop-nav a {
+  color: #ffffff; /* White text color */
+  margin: 0 15px;
+  text-decoration: none;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  transition: color 0.3s ease;
+}
+
+/* Active link styling */
+.desktop-nav a.active {
+  color: #000000; /* Black text color */
+  background-color: #D3D3D3; /* Light grey background */
+  border-radius: 15px;
+
+}
+
+/* Hover effect for navigation links */
+.desktop-nav a:hover {
+  color: #D3D3D3; /* Light grey color on hover */
 }
